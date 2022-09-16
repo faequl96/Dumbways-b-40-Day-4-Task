@@ -1,8 +1,8 @@
 .card {
-    padding: 8px;
+    padding: 10px;
     margin: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .4);
-    background-color: aquamarine;
+    background-color: white;
     border-radius: 6px;
 }
 .maxSizeImg {
@@ -19,16 +19,21 @@
     margin: 10px 0;
 }
 
+.judulCard .kotakJudul {
+    height: 30px;
+}
+
 .judulCard .durasi {
+    height: 40px;
     display: flex;
+}
+
+.judulCard .durasi div:first-child {
+    width: 18%;
 }
 
 .judulCard p {
     font-family: 'made_tommy_softregular';
-}
-
-.judulCard p:first-child {
-    width: 25%;
 }
 
 .isiCard {
