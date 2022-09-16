@@ -1,0 +1,13 @@
+.myproject {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

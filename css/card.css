@@ -1,0 +1,64 @@
+.card {
+    padding: 8px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .4);
+    background-color: aquamarine;
+    border-radius: 6px;
+}
+.maxSizeImg {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+}
+
+.imgContent {
+    width: 100%;
+}
+
+.judulCard {
+    margin: 10px 0;
+}
+
+.judulCard .durasi {
+    display: flex;
+}
+
+.judulCard p {
+    font-family: 'made_tommy_softregular';
+}
+
+.judulCard p:first-child {
+    width: 25%;
+}
+
+.isiCard {
+    height: 60px;
+    overflow: hidden;
+}
+
+.techCheck {
+    margin: 10px 0;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.techCheck img {
+    height: 80%;
+    margin-right: 6px;
+}
+
+.editDelete {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.editDelete div {
+    width: 49%;
+    padding: 2px 0;
+    background-color: #333;
+    color: #eaeaea;
+    border-radius: 5px;
+    text-align: center;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dumbways Homework 3rd Day</title>
+    <link rel="stylesheet" href="css/navigasi.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/myproject.css">
+    <link rel="stylesheet" href="css/card.css">
+</head>
+<body>
+    
+    <nav>
+        <div class="kotakNav">
+            <div class="navLeft">
+                <ul>
+                    <li>
+                        <a href="#"><img src="img/js_logo.png" alt="JavaScript Logo" class="logo"></a>
+                    </li>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">My Project</a>
+                    </li>
+                </ul>
+            </div>
+        
+            <div class="contact">
+                <div>
+                    <a href="contact.html">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="form">    
+        <div class="judul">
+            <h1>ADD MY PROJECT</h1>
+        </div>
+    
+        <form>
+            <div>
+                <label>
+                    Project Name
+                    <input type="text" class="projectName input">
+                </label>
+            </div>
+    
+            <div class="date">
+                <label>
+                    Start Date
+                    <input type="date" class="startDate input">
+                </label>
+                <label>
+                    End Date
+                    <input type="date" class="endDate input">
+                </label>
+            </div>
+            
+            <div>
+                <label>
+                    Description
+                    <textarea name="" class="description input" cols="30" rows="6"></textarea>
+                </label>
+            </div>
+    
+            <div>
+                <label>
+                    Technology
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" class="nodeJs lgcb" value="nodeJs">
+                            Node JS
+                        </label>
+                        <label>
+                            <input type="checkbox" class="reactJs lgcb" value="reactJs">
+                            React JS
+                        </label>
+                        <label>
+                            <input type="checkbox" class="vueJs lgcb" value="vueJs">
+                            Vue JS
+                        </label>
+                        <label>
+                            <input type="checkbox" class="typeScript lgcb" value="typeScript">
+                            TypeScript
+                        </label>
+                    </div>
+                    
+                </label>
+            </div>
+    
+            <div>
+                <label>
+                    Upload Image
+                    <div class="upload">
+                        <div class="choose" style="cursor: pointer;">choose</div>
+                        <img src="img/link.png" alt="Choose Image" class="linklogo">
+                        <input type="file" accept="image/png, image/jpeg" class="uploadImg" style="visibility:hidden;">
+                    </div>
+                    
+                </label>
+            </div>
+            <div class="submit">
+                <button type="button" onclick="tangkapData()">Submit</button>
+            </div>
+        </form>
+    </section>
+
+
+
+
+
+    <div class="myproject">
+        <div class="judul">
+            <h1>MY PROJECT</h1>
+        </div>
+
+        <div class="container">
+
+        </div>
+    </div>
+    <script src="tangkapData.js"></script>
+    <!-- <script src="style.js"></script> -->
+</body>
+</html>
